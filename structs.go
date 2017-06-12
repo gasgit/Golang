@@ -10,6 +10,7 @@ type vechicle struct{
 }
 
 func main(){
+  
   p1 := vechicle{make: "toyota", model: "avensis", engine_size: 1.6}
 
   fmt.Println(p1)
