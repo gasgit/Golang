@@ -3,7 +3,6 @@ package main
 import "fmt"
 import "math/rand"
 
-
 /*
   decisions, if, if-else
 */
@@ -32,8 +31,6 @@ func main(){
   }
 
   // switch
-
-
   choice := rand.Intn(3 - 1) + 1
 
   fmt.Printf("Rand int: %d\n", choice)
