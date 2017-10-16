@@ -15,7 +15,7 @@ type movie struct {
 
 func main() {
 
-	// craete movies
+	// create movies
 	m1 := movie{
 		Title: "The Shawshank Redemption",
 		Year:  1994,

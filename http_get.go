@@ -8,7 +8,9 @@ import (
 )
 
 func main() {
-	resp, err := http.Get("http://ip.jsontest.com")
+	//resp, err := http.Get("http://ip.jsontest.com")
+	resp, err := http.Get("https://jsonplaceholder.typicode.com/todos")
+
 	if err != nil {
 		log.Fatal(err)
 	}
